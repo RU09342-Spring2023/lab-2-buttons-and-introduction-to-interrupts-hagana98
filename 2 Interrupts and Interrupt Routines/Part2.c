@@ -26,6 +26,8 @@ int main(void)
     // Configure GPIO
     P1OUT &= ~BIT0;                         // Clear P1.0 output latch for a defined power-on state
     P1DIR |= BIT0;                          // Set P1.0 to output direction
+    P6OUT &= ~BIT6;                         // Clear P6.6 output latch for a defined power-on state
+    P6DIR |= BIT6;                          // Set P1.0 to output direction
 
     // @TODO You need to add in the configuration for the Green LED
 
@@ -47,8 +49,12 @@ int main(void)
         // @TODO You will need to modify this code to change between blinking the Red LED or the Green LED
         if (ToggleEnable)
             P1OUT ^= BIT0;                  // P1.0 = toggle
+        //else
+            //P1OUT &= ~BIT0;                 // Set P1.0 to 0
         else
-            P1OUT &= ~BIT0;                 // Set P1.0 to 0
+            P6OUT ^= BIT6;                  // P6.6 = toggle
+        //else
+            //P6OUT &= ~BIT6;                 // Set P1.0 to 0
         __delay_cycles(100000);
     }
 }
