@@ -1,8 +1,8 @@
 /*
  *  Button Interrupt Example
  *
- *  Created on: Jan 30, 2023
- *      Author: Russell Trafford
+ *  Created on: Feb 1, 2023
+ *      Author: Allison Hagan
  *      Version: 1.0
  *
  *      This example will show you how to configure an Interrupt and Interrupt Service Routine.
