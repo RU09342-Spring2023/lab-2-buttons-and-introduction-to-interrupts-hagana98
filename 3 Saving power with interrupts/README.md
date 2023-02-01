@@ -77,3 +77,18 @@ Then load up Energy Trace and perform the similar capture of Power with the LED 
 
 # Screenshots and Answers to Questions
 **Replace this section with your screenshots of Energy Trace and provide some reasoning as to Questions 1 and 2 in the Power consumption of the Interrupts Section.**
+![WithJumperPolling](https://user-images.githubusercontent.com/79154338/216144444-ca7efd4f-0e50-47c8-abb0-bc8ab9bdec11.JPG)
+Energy Trace: Polling with LED (Jumper)
+
+![WithoutJumperPolling](https://user-images.githubusercontent.com/79154338/216144771-3324081d-997c-4bde-8291-dbdf5c9e038a.JPG)
+Energy Trace: Polling without LED (No Jumper)
+
+![WithJumperInterrupt](https://user-images.githubusercontent.com/79154338/216144854-066772bb-f248-4d43-9466-e2c539291945.JPG)
+Energy Trace: Interrupt with LED (Jumper)
+
+![WithoutJumperInterrupt](https://user-images.githubusercontent.com/79154338/216144939-47bf2013-5d6e-4e1d-873a-517cb1fb12aa.JPG)
+Energy Trace: Interrupt without LED (No Jumper)
+
+
+
+
